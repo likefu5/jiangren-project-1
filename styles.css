@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  display: inline;
+}
+
+ul li {
+  display: inline-flex;
+  list-style: none;
+}
+
+.navBar {
+  border: solid;
+  display: flex;
+}
+.navBar__bar {
+  border: dashed red;
+  cursor: pointer;
+}
+.navBar__bar:hover {
+  color: brown;
+}
+
+.content {
+  border: solid blue;
+  margin: 2rem;
+  visibility: visible;
+  border-radius: 1rem;
+}
+.content__top {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+.content__bottom {
+  margin: 1rem;
+  display: inline-flex;
+}
+.content__bottom__table {
+  text-align: left;
+}
+
+.photo__portrait {
+  background-position: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
